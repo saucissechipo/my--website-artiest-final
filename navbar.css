@@ -1,0 +1,47 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgba(250, 248, 244, 0.95);
+  border-bottom: 1px solid rgba(15, 14, 12, 0.08);
+  padding: 18px 0;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #0f0e0c;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-links > li {
+  display: inline;
+  padding: 0 16px;
+}
+
+.navbar-links a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #4a4845;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #0f0e0c;
+  opacity: 1;
+}
